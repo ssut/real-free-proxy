@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "module": "Node16",
+    "incremental": true,
+    "moduleResolution": "Node16",
+    "moduleDetection": "force",
+    "target": "ES2016",
+    "allowSyntheticDefaultImports": true,
+    "allowImportingTsExtensions": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "esModuleInterop": true,
+    "declaration": true,
+    "lib": ["ESNext"],
+    "outDir": "./dist",
+    "sourceMap": true,
+    "strict": true,
+    "skipDefaultLibCheck": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": ["./lib"],
+  "exclude": [
+    "node_modules",
+    "**/node_modules/*"
+  ]
+}
